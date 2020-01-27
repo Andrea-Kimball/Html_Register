@@ -1,0 +1,48 @@
+body{
+    background-color:lightskyblue;
+    margin:0;
+    
+}
+
+.wrapper{
+    border-style: solid;
+    display: flex;    
+    justify-content: center;
+    margin:25px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    background-color: white;
+    font-family: sans-serif;
+    border-radius: 5px;
+}
+
+
+.navigation{
+    overflow: hidden;   
+    background-color: white;
+    top:0;
+    position:top;
+    padding: 10px;
+}
+
+.topNavRight {
+  float: right;
+  background-color: rgb(18, 98, 148);
+  color:white;
+  border-radius: 5px;
+  
+}
+
+.submit{
+    background-color: rgb(18, 98, 148);
+    color:white;
+    border-radius: 5px;
+    margin:8px; 
+}
+
+.textBox{
+    align-items: center;
+    margin:8px;
+    border-radius: 5px;
+}
