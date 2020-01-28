@@ -22,6 +22,18 @@
     border: solid 2px black;
     transform:rotate(160deg);
     border-radius: 50%;
+
+}
+
+.rightEar{
+    width: 20%;
+    height:50%;
+    background-color: white;
+    border: solid 2px black;
+    transform:rotate(160deg);
+    border-radius: 50%;
+    position: relative;
+    float:right;
 }
 
 
@@ -30,9 +42,10 @@
     display:block;
     width:106px;
     height:160px;
-    position:relative;
     z-index: 1;
-    margin-top: 40px;
+    position:relative;
+    top:10;
+    margin-left: 50px;
     background-color: grey;    
     border: solid 2px black;
     border-radius: 50% 50% 50% 50%/60% 60% 40% 40%;
