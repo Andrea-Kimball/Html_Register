@@ -116,6 +116,18 @@ namespace _01_TypesandVariables
             bool isReady;
             isReady = false;
         }
-        
-    }
+
+        [TestMethod]
+        public void AmandasValueTypesChallenge()
+        {
+            string varNumOne;
+            string varNumTwo = "Variable Number Two";
+            char Anna;
+            char Brad = 'b';
+            decimal varNumberFour = 1.24m;
+            decimal varNumberFive = 7.96m;
+            bool restName = true;
+        }
+
+        }
 }
